@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rinterio</title>
   <!-- Daisy Ui and Tailwind cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -241,10 +241,11 @@
     </div>
   </section>
      <!-- Let's discuss section -->
-    <section>
-      <div>
-        <img class=" w-full lg:h-[900px] h-[1050px] relative" src="assets/bg.jpg" alt="">
-        <div class="absolute  lg:-mt-[820px] -mt-[980px] lg:ml-32">
+     <section>
+      <div class="bg-cover py-8" style="background-image: url(assets/bg.jpg);">
+      <div class="hero-overlay"></div>
+      <div class="hero-content text-center">
+        <div>
           <div class="w-56 mx-auto">
             <a class="btn bg-[#ABEF5F33] ml-8 rounded-full border-none px-8">
             <div class=" relative ">
@@ -267,10 +268,11 @@
               <i class="fa-solid fa-arrow-right -rotate-45 absolute mt-1 -ml-2 text-lg text-[#FFFFFF]"></i>
               </div>
             </a>
-          </div>
         </div>
       </div>
-    </section>
+      </div>
+    </div>
+      </section>
   </main>
   <footer>
     <div  class="bg-[#1C1C1C]">
@@ -306,6 +308,6 @@
     </div>
 
   </footer>
-  
+ 
 </body>
 </html>
